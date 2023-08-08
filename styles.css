@@ -1,0 +1,124 @@
+/* * {
+    outline: 1px solid black;
+    padding: 1px;
+} */
+
+:root {
+    --dark: #061130;
+    --blue: #1c4bc4;
+    --white: #f4f6f8;
+    --yellow: #FAFD61;
+}
+
+.logo {
+    align-items: left;
+}
+
+header {
+    margin-bottom: 6em;
+}
+
+body {
+    margin: 0;
+    height: max-content;
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.main-card {
+    font-size: large;
+}
+
+footer {
+    background-color: var(--white);
+    color: var(--dark);
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 0;
+    height: 200px;
+}
+
+title {
+    color: var(--yellow);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.linksAndButtons {
+    width: 50%;
+    justify-content: end;
+}
+
+button {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+
+.jc-fe {
+    justify-content: space-between;
+}
+
+.jc-right {
+    justify-content: right;
+}
+
+.jc-left {
+    justify-content: left;
+}
+
+.jc-end {
+    justify-content: end;
+}
+
+.world-logo {
+    width: 100%;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+h4 {
+    color: var(--yellow);
+}
+
+#world-logo {
+    justify-content: right;
+    width: auto;
+    height: auto;
+}
+
+#bottomText {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.noLink {
+    text-decoration: none;
+    color: #061130;
+}
+
+.headerMargin {
+    margin: 20px;
+}
+
+.paddedDiv {
+    padding: 50px;
+}
+
+@media (max-width: 600px) {
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    body {
+        background-color: var(--white);
+        color: var(--dark);
+    }
+}
