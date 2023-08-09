@@ -18,6 +18,11 @@ header {
     margin-bottom: 6em;
 }
 
+.LetsChat {
+    border-radius: 30px;
+    height: 50px;
+}
+
 body {
     margin: 0;
     height: max-content;
@@ -35,9 +40,9 @@ footer {
     background-color: var(--white);
     color: var(--dark);
     align-items: center;
-    margin-top: 130px;
+    margin-top: 110px;
     margin-bottom: 0;
-    height: 200px;
+    height: 220px;
 }
 
 title {
@@ -83,6 +88,10 @@ button {
     justify-content: space-between;
 }
 
+.space-evenly {
+    justify-content: space-evenly;
+}
+
 h4 {
     color: var(--yellow);
 }
@@ -98,6 +107,10 @@ h4 {
     margin-bottom: 0;
 }
 
+.border-top {
+    border-top: 20px;
+}
+
 .noLink {
     text-decoration: none;
     color: #061130;
@@ -108,7 +121,7 @@ h4 {
 }
 
 .paddedDiv {
-    padding: 50px;
+    padding: 80px;
 }
 
 @media (max-width: 600px) {
@@ -121,4 +134,8 @@ h4 {
         background-color: var(--white);
         color: var(--dark);
     }
+}
+
+.paddedTop {
+    padding-top: 20px;
 }
