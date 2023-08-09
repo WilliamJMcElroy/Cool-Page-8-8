@@ -11,7 +11,7 @@
 }
 
 .logo {
-    margin: 10px 30px;
+    margin: 15px 30px;
     align-items: left;
 }
 
@@ -101,6 +101,10 @@ button {
     justify-content: space-evenly;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
 h4 {
     color: var(--yellow);
 }
@@ -109,6 +113,7 @@ h4 {
     justify-content: right;
     width: auto;
     height: auto;
+    padding-right: 150px;
 }
 
 #bottomText {
@@ -134,9 +139,9 @@ h4 {
 }
 
 .paddedDiv {
-    padding: 80px;
-    padding-right: 40px;
-    padding-left: 60px;
+    padding: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 @media (max-width: 600px) {
