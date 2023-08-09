@@ -32,7 +32,7 @@ body {
     height: max-content;
     background-color: var(--dark);
     color: var(--white);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -65,6 +65,11 @@ title {
 button {
     color: var(--white);
     background-color: var(--blue);
+}
+
+.LetsChat {
+    text-shadow: rgba(0, 0, 0, .4);
+    box-shadow: rgba(0, 0, 0, .4);
 }
 
 
@@ -117,7 +122,11 @@ h4 {
 
 .noLink {
     text-decoration: none;
-    color: #061130;
+    color: var(--dark);
+}
+
+.noLink:hover {
+    color: var(--dark);
 }
 
 .headerMargin {
